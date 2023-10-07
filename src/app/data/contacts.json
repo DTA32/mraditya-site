@@ -1,0 +1,32 @@
+[
+    {
+        "icon": "google",
+        "platform": "Email",
+        "username": "mraditya203@gmail.com",
+        "link": "mailto:mraditya203@gmail.com"
+    },
+    {
+        "icon": "linkedin",
+        "platform": "Linkedin",
+        "username": "Muhammad Raditya",
+        "link": "https://www.linkedin.com/in/muhammad-raditya-880/"
+    },
+    {
+        "icon": "github",
+        "platform": "GitHub",
+        "username": "DTA32",
+        "link": "https://github.com/DTA32"
+    },
+    {
+        "icon": "whatsapp",
+        "platform": "WhatsApp",
+        "username": "Click to chat",
+        "link": "https://wa.me/6283822908151"
+    },
+    {
+        "icon": "instagram",
+        "platform": "Instagram",
+        "username": "@mraditya32",
+        "link": "https://instagram.com/mraditya32"
+    }
+]

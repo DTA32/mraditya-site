@@ -1,0 +1,165 @@
+[
+    {
+        "id": "cash-in",
+        "title": "Cash-In",
+        "description": "Aplikasi kasir sederhana yang dibuat untuk memenuhi tugas akhir mata kuliah Object Oriented Programming. Aplikasi ini ditujukan untuk usaha kecil yang membutuhkan fitur manajemen barang dan transaksi yang efisien dan sederhana dengan UI yang sederhana dan akses fitur berbasis tipe user.",
+        "image": [
+            "kasirmenu.png",
+            "spvmenu.png",
+            "adminmanagebarang.png",
+            "admintrx.png",
+            "adminuser.png"
+        ],
+        "techStack": [
+            {
+                "icon": "java",
+                "iconVar": "plain",
+                "name": "Java (Swing)"
+            },
+            {
+                "icon": "mysql",
+                "iconVar": "plain",
+                "name": "MySQL"
+            }
+        ],
+        "githubLink": "https://github.com/DTA32/cash-in",
+        "publicLink": ""
+    },
+    {
+        "id": "tiketin",
+        "title": "TIKETIN",
+        "description": "Website pemesanan tiket pesawat yang dibuat untuk memenuhi tugas akhir mata kuliah Software Engineering. Kelebihan dari website ini adalah user dapat memilih kursi yang diinginkan saat memesan penerbangan",
+        "image": [
+            "login.png",
+            "home.png",
+            "step1.png",
+            "step3.png",
+            "history.png",
+            "eticket.png"
+        ],
+        "techStack": [
+            {
+                "icon": "php",
+                "iconVar": "plain",
+                "name": "PHP"
+            },
+            {
+                "icon": "laravel",
+                "iconVar": "plain",
+                "name": "Laravel"
+            },
+            {
+                "icon": "sqlite",
+                "iconVar": "plain",
+                "name": "SQLite"
+            },
+            {
+                "icon": "bootstrap",
+                "iconVar": "plain",
+                "name": "Bootstrap"
+            }
+        ],
+        "githubLink": "https://github.com/DTA32/airline-v1",
+        "publicLink": ""
+    },
+    {
+        "id": "raamen",
+        "title": "RAAMEN",
+        "description": "Website manajemen kedai ramen yang dibuat untuk memenuhi tugas akhir mata kuliah Pattern Software Design. Pada website ini admin dapat membuat laporan penjualan, staff dapat mengelola ramen dan antrian transaksi, dan user dapat memesan ramen",
+        "image": [
+            "login.png",
+            "admin1.png",
+            "admin2.png",
+            "staff.png",
+            "customer.png"
+        ],
+        "techStack": [
+            {
+                "icon": "csharp",
+                "iconVar": "plain",
+                "name": "C#"
+            },
+            {
+                "icon": "dot-net",
+                "iconVar": "plain",
+                "name": "ASP.NET"
+            },
+            {
+                "icon": "microsoftsqlserver",
+                "iconVar": "plain",
+                "name": "SQL Server"
+            },
+            {
+                "icon": "bootstrap",
+                "iconVar": "plain",
+                "name": "Bootstrap"
+            }
+        ],
+        "githubLink": "https://github.com/MaulanaAhmadSulami/Raamen/",
+        "publicLink": ""
+    },
+    {
+        "id": "dfgs",
+        "title": "Flash Game Site",
+        "description": "Project pribadi yang dibuat untuk mempelajari seluruh tech stack dibawah. Website ini berisi kumpulan game berbasis Flash tahun 2010an.",
+        "image": [
+            "dfgs.png"
+        ],
+        "techStack": [
+            {
+                "icon": "react",
+                "iconVar": "original",
+                "name": "React"
+            },
+            {
+                "icon": "nextjs",
+                "iconVar": "original",
+                "name": "Next.js"
+            },
+            {
+                "icon": "tailwindcss",
+                "iconVar": "plain",
+                "name": "Tailwind"
+            },
+            {
+                "icon": "express",
+                "iconVar": "original",
+                "name": "Express (Node.js)"
+            },
+            {
+                "icon": "mongodb",
+                "iconVar": "plain",
+                "name": "MongoDB"
+            }
+        ],
+        "githubLink": "https://github.com/DTA32/ofgs",
+        "publicLink": ""
+    },
+    {
+        "id": "mraditya-site",
+        "title": "MRaditya Portfolio Website",
+        "description": "Web ini.",
+        "image": [
+            "thisweb.png"
+        ],
+        "techStack": [
+            {
+                "icon": "react",
+                "iconVar": "original",
+                "name": "React"
+            },
+            {
+                "icon": "nextjs",
+                "iconVar": "original",
+                "name": "Next.js"
+            },
+            {
+                "icon": "tailwindcss",
+                "iconVar": "plain",
+                "name": "Tailwind"
+            }
+        ],
+        "githubLink": "https://github.com/DTA32/mraditya-site",
+        "publicLink": ""
+    }
+]
