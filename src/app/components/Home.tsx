@@ -12,6 +12,13 @@ export default function Home() {
         <h1 className="text-6xl">Welcome to my site</h1>
       </div>
       <div className="md:col-span-4 relative max-h-[90vh]">
+        <Image
+          src="/home.jpg"
+          alt="home"
+          width={1080}
+          height={1080}
+          className="h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-slate-800 to-20%"></div>
       </div>
     </section>

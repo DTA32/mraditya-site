@@ -21,7 +21,7 @@ export default function About() {
           <p>No description yet.</p>
           <div className="flex flex-col gap-2">
             <p>Tech Stack</p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 text-base">
               {about.map((tech, index) => (
                 <TechStackPill key={index} data={tech} type={2} />
               ))}
