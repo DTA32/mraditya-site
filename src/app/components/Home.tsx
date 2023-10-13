@@ -8,8 +8,8 @@ export default function Home() {
     >
       <div className="md:col-span-5 flex flex-col justify-center px-12 bg-slate-800 max-h-[90vh] text-white">
         <h2 className="text-4xl">Hello,</h2>
-        <h2 className="text-4xl">My name is MRaditya</h2>
-        <h1 className="text-6xl">Welcome to my site</h1>
+        <h2 className="text-4xl">Welcome to</h2>
+        <h1 className="text-6xl">MRaditya Portfolio Web</h1>
       </div>
       <div className="md:col-span-4 relative max-h-[90vh]">
         <Image

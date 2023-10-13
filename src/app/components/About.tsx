@@ -18,7 +18,13 @@ export default function About() {
       <div className="flex flex-col gap-4 w-full text-white">
         <h1 className="text-3xl md:text-4xl">About Me</h1>
         <div className="text-md sm:text-lg md:text-xl flex flex-col gap-8">
-          <p>No description yet.</p>
+          <p>
+            Hi, my name is Muhammad Raditya, i&apos;m a tech-geek and melophile.
+            Currently studying at BINUS University, majoring in Computer
+            Science. Interested in web development <small>(for now)</small>, but
+            also have learned about algorithms, data structures, database,
+            desktop app development, and UI/UX design.
+          </p>
           <div className="flex flex-col gap-2">
             <p>Tech Stack</p>
             <div className="flex flex-wrap gap-2 text-base">

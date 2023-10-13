@@ -5,4 +5,5 @@ export interface ContactCardProps {
   platform: string;
   username: string;
   link: string;
+  type: 0 | 1;
 }

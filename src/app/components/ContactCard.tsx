@@ -18,10 +18,12 @@ export default function ContactCard(props: ContactCardProps) {
   const body: JSX.Element = (
     <div className="flex flex-row gap-4 items-center hover:bg-slate-800 p-4 rounded-2xl">
       <div>{icon}</div>
-      <div className="">
-        {/* <p className="text-gray-300">{props.platform}</p> */}
-        <p className="text-ellipsis overflow-hidden">{props.username}</p>
-      </div>
+      {props.type == 1 && (
+        <div>
+          {/* <p className="text-gray-300">{props.platform}</p> */}
+          <p className="text-ellipsis overflow-hidden">{props.username}</p>
+        </div>
+      )}
     </div>
   );
 

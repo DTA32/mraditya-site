@@ -1,32 +1,36 @@
-[
-    {
-        "icon": "google",
-        "platform": "Email",
-        "username": "mraditya203@gmail.com",
-        "link": "mailto:mraditya203@gmail.com"
-    },
-    {
-        "icon": "linkedin",
-        "platform": "Linkedin",
-        "username": "Muhammad Raditya",
-        "link": "https://www.linkedin.com/in/muhammad-raditya-880/"
-    },
-    {
-        "icon": "github",
-        "platform": "GitHub",
-        "username": "GitHub",
-        "link": "https://github.com/DTA32"
-    },
-    {
-        "icon": "whatsapp",
-        "platform": "WhatsApp",
-        "username": "WhatsApp",
-        "link": "https://wa.me/6283822908151"
-    },
-    {
-        "icon": "instagram",
-        "platform": "Instagram",
-        "username": "Instagram",
-        "link": "https://instagram.com/mraditya32"
-    }
-]
+{
+    "top": [
+        {
+            "icon": "github",
+            "platform": "GitHub",
+            "username": "GitHub",
+            "link": "https://github.com/DTA32"
+        },
+        {
+            "icon": "whatsapp",
+            "platform": "WhatsApp",
+            "username": "WhatsApp",
+            "link": "https://wa.me/6283822908151"
+        },
+        {
+            "icon": "instagram",
+            "platform": "Instagram",
+            "username": "Instagram",
+            "link": "https://instagram.com/mraditya32"
+        }
+    ],
+    "bottom": [
+        {
+            "icon": "google",
+            "platform": "Email",
+            "username": "mraditya203@gmail.com",
+            "link": "mailto:mraditya203@gmail.com"
+        },
+        {
+            "icon": "linkedin",
+            "platform": "Linkedin",
+            "username": "Muhammad Raditya",
+            "link": "https://www.linkedin.com/in/muhammad-raditya-880/"
+        }
+    ]
+}

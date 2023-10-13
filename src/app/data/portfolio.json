@@ -2,7 +2,7 @@
     {
         "id": "cash-in",
         "title": "Cash-In",
-        "description": "Aplikasi kasir sederhana yang dibuat untuk memenuhi tugas akhir mata kuliah Object Oriented Programming. Aplikasi ini ditujukan untuk usaha kecil yang membutuhkan fitur manajemen barang dan transaksi yang efisien dan sederhana dengan UI yang sederhana dan akses fitur berbasis tipe user.",
+        "description": "Simple cashier app made for fulfilling Object Oriented Programming final project. This app is aimed at small businesses that need efficient and simple inventory and transaction management features with a simple UI and user role-based feature access",
         "image": [
             "kasirmenu.png",
             "spvmenu.png",
@@ -28,7 +28,7 @@
     {
         "id": "tiketin",
         "title": "TIKETIN",
-        "description": "Website pemesanan tiket pesawat yang dibuat untuk memenuhi tugas akhir mata kuliah Software Engineering. Kelebihan dari website ini adalah user dapat memilih kursi yang diinginkan saat memesan penerbangan",
+        "description": "Airline ticket reservation website made for fulfilling Software Engineering final project. Advantage of this website is user can choose desired seat when booking a flight",
         "image": [
             "login.png",
             "home.png",
@@ -65,7 +65,7 @@
     {
         "id": "raamen",
         "title": "RAAMEN",
-        "description": "Website manajemen kedai ramen yang dibuat untuk memenuhi tugas akhir mata kuliah Pattern Software Design. Pada website ini admin dapat membuat laporan penjualan, staff dapat mengelola ramen dan antrian transaksi, dan user dapat memesan ramen",
+        "description": "Ramen shop management website made for fulfilling Pattern Software Design final project, developed using Domain Driven Design. On this website, admin can create sales reports, staff can manage ramen and transaction queue, and user can order ramen",
         "image": [
             "login.png",
             "admin1.png",
@@ -101,7 +101,7 @@
     {
         "id": "dfgs",
         "title": "Flash Game Site",
-        "description": "Project pribadi yang dibuat untuk mempelajari seluruh tech stack dibawah. Website ini berisi kumpulan game berbasis Flash tahun 2010an.",
+        "description": "Personal project created to learn all of tech stack below, mainly to learn how to create backend with Express and how to fetch API on Next.js. This website contains collection of Flash-based games from the 2010s",
         "image": [
             "dfgs.png"
         ],
@@ -138,7 +138,7 @@
     {
         "id": "mraditya-site",
         "title": "MRaditya Portfolio Website",
-        "description": "Web ini.",
+        "description": "This web. Created modal window for portfolio description and hamburger for menu on mobile screen without any library (except image slideshow on modal), also focused on responsiveness to ensure nothing broken on different screen sizes",
         "image": [
             "thisweb.png"
         ],
@@ -160,6 +160,6 @@
             }
         ],
         "githubLink": "https://github.com/DTA32/mraditya-site",
-        "publicLink": ""
+        "publicLink": "https://mraditya-site.vercel.app/"
     }
 ]
