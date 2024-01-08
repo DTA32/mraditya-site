@@ -161,5 +161,72 @@
         ],
         "githubLink": "https://github.com/DTA32/mraditya-site",
         "publicLink": "https://mraditya-site.vercel.app/"
+    },
+    {
+        "id": "vern",
+        "title": "VERN - Vehicle Rental",
+        "description": "Vehicle rental website made for Final Project on Web Programming course. On this project i’ve assigned as Full-Stack Developer but more focused on backend, mainly integrating external services into this website, such as Google OAuth, Midtrans Payment Gateway, and Mailtrap Email Delivery.",
+        "image": [
+            "dashboard.png",
+            "searchresults.png",
+            "vehicledetail.png",
+            "orderdetail.png",
+            "orderhistory.png"
+        ],
+        "techStack": [
+            {
+                "icon": "laravel",
+                "iconVar": "plain",
+                "name": "Laravel"
+            },
+            {
+                "icon": "react",
+                "iconVar": "original",
+                "name": "React"
+            },
+            {
+                "icon": "postgresql",
+                "iconVar": "plain",
+                "name": "PostgreSQL"
+            },
+            {
+                "icon": "tailwindcss",
+                "iconVar": "plain",
+                "name": "Tailwind"
+            }
+        ],
+        "githubLink": "https://github.com/vincentalexx/Vern/",
+        "publicLink": ""
+    },
+    {
+        "id": "internet-clafes",
+        "title": "Internet CLafes",
+        "description": "Application for managing internet cafe, this project made for Lab Project on Object Oriented Analysis Design course. Features on this app is role-based, making every user role has it’s own feature on the app. For example, customer can book PC and make report for any malfunction on a PC and admin can manage PC and technician job",
+        "image": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png",
+            "10.png"
+        ],
+        "techStack": [
+            {
+                "icon": "java",
+                "iconVar": "plain",
+                "name": "Java (JavaFX)"
+            },
+            {
+                "icon": "mysql",
+                "iconVar": "plain",
+                "name": "MySQL"
+            }
+        ],
+        "githubLink": "https://github.com/DTA32/ooadproject",
+        "publicLink": ""
     }
 ]
