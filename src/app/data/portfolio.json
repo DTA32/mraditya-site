@@ -2,6 +2,7 @@
     {
         "id": "cash-in",
         "title": "Cash-In",
+        "status": 3,
         "description": "Simple cashier app made for fulfilling Object Oriented Programming final project. This app is aimed at small businesses that need efficient and simple inventory and transaction management features with a simple UI and user role-based feature access",
         "image": [
             "kasirmenu.png",
@@ -18,7 +19,7 @@
             },
             {
                 "icon": "mysql",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "MySQL"
             }
         ],
@@ -28,6 +29,7 @@
     {
         "id": "tiketin",
         "title": "TIKETIN",
+        "status": 3,
         "description": "Airline ticket reservation website made for fulfilling Software Engineering final project. Advantage of this website is user can choose desired seat when booking a flight",
         "image": [
             "login.png",
@@ -45,7 +47,7 @@
             },
             {
                 "icon": "laravel",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "Laravel"
             },
             {
@@ -65,6 +67,7 @@
     {
         "id": "raamen",
         "title": "RAAMEN",
+        "status": 3,
         "description": "Ramen shop management website made for fulfilling Pattern Software Design final project, developed using Domain Driven Design. On this website, admin can create sales reports, staff can manage ramen and transaction queue, and user can order ramen",
         "image": [
             "login.png",
@@ -101,6 +104,7 @@
     {
         "id": "dfgs",
         "title": "Flash Game Site",
+        "status": 2,
         "description": "Personal project created to learn all of tech stack below, mainly to learn how to create backend with Express and how to fetch API on Next.js. This website contains collection of Flash-based games from the 2010s",
         "image": [
             "dfgs.png"
@@ -113,12 +117,12 @@
             },
             {
                 "icon": "nextjs",
-                "iconVar": "original",
+                "iconVar": "plain",
                 "name": "Next.js"
             },
             {
                 "icon": "tailwindcss",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "Tailwind"
             },
             {
@@ -138,6 +142,7 @@
     {
         "id": "mraditya-site",
         "title": "MRaditya Portfolio Website",
+        "status": 4,
         "description": "This web. Created modal window for portfolio description and hamburger for menu on mobile screen without any library (except image slideshow on modal), also focused on responsiveness to ensure nothing broken on different screen sizes",
         "image": [
             "thisweb.png"
@@ -150,21 +155,22 @@
             },
             {
                 "icon": "nextjs",
-                "iconVar": "original",
+                "iconVar": "plain",
                 "name": "Next.js"
             },
             {
                 "icon": "tailwindcss",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "Tailwind"
             }
         ],
         "githubLink": "https://github.com/DTA32/mraditya-site",
-        "publicLink": "https://mraditya-site.vercel.app/"
+        "publicLink": "https://mraditya.works/"
     },
     {
         "id": "vern",
         "title": "VERN - Vehicle Rental",
+        "status": 3,
         "description": "Vehicle rental website made for Final Project on Web Programming course. On this project i’ve assigned as Full-Stack Developer but more focused on backend, mainly integrating external services into this website, such as Google OAuth, Midtrans Payment Gateway, and Mailtrap Email Delivery.",
         "image": [
             "dashboard.png",
@@ -176,7 +182,7 @@
         "techStack": [
             {
                 "icon": "laravel",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "Laravel"
             },
             {
@@ -191,7 +197,7 @@
             },
             {
                 "icon": "tailwindcss",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "Tailwind"
             }
         ],
@@ -201,6 +207,7 @@
     {
         "id": "internet-clafes",
         "title": "Internet CLafes",
+        "status": 3,
         "description": "Application for managing internet cafe, this project made for Lab Project on Object Oriented Analysis Design course. Features on this app is role-based, making every user role has it’s own feature on the app. For example, customer can book PC and make report for any malfunction on a PC and admin can manage PC and technician job",
         "image": [
             "1.png",
@@ -222,7 +229,7 @@
             },
             {
                 "icon": "mysql",
-                "iconVar": "plain",
+                "iconVar": "original",
                 "name": "MySQL"
             }
         ],

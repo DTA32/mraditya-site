@@ -1,9 +1,14 @@
 "use client";
 
 export default function Footer() {
-  return (
-    <footer className="flex flex-row items-center justify-end bg-slate-950 px-4 h-8 text-white">
-      <small>&#169; 2023 MRaditya</small>
-    </footer>
-  );
+    return (
+        <footer className="flex flex-row items-center justify-between bg-slate-950 px-4 h-8 text-neutral-200">
+            <small>
+                <a href="https://dta32.my.id" target="_blank">
+                    also check my personal web
+                </a>
+            </small>
+            <small>&#169; 2024 MRaditya</small>
+        </footer>
+    );
 }

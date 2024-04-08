@@ -6,16 +6,19 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export default function Page() {
-  return (
-    <div>
-      <Navbar />
-      <main>
-        <Home />
-        <About />
-        <Portfolio />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Navbar />
+            <main>
+                <Home />
+                <div className="bg-gradient-to-b h-12 from-slate-800 to-slate-900"></div>
+                <About />
+                <div className="bg-gradient-to-b h-12 from-slate-900 to-slate-800"></div>
+                <Portfolio />
+                <div className="bg-gradient-to-b h-12 from-slate-800 to-slate-900"></div>
+                <Contact />
+            </main>
+            <Footer />
+        </div>
+    );
 }
