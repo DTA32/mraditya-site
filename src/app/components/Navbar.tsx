@@ -1,10 +1,11 @@
 "use client";
 import { useState } from "react";
+import Spotify from "./Spotify";
 
 export default function Navbar() {
     const [hamburger, setHamburger] = useState(false);
     return (
-        <nav className="bg-slate-950 flex flex-row px-8 h-[10vh] items-center sticky top-0 z-10 gap-x-20">
+        <nav className="bg-slate-950 flex flex-row justify-between px-8 h-[10vh] items-center sticky top-0 z-10 gap-x-20">
             <div className="flex flex-row gap-x-0 md:gap-x-20 text-neutral-100 items-center w-full md:w-fit justify-between md:justify-normal">
                 <div className="flex md:hidden">
                     <button className="relative" onClick={() => setHamburger(!hamburger)}>
@@ -54,8 +55,9 @@ export default function Navbar() {
                     </a>
                 </div>
             </div>
+            <Spotify />
             {hamburger && (
-                <div className="absolute md:hidden top-full left-0 w-full h-screen text-neutral-100">
+                <div className="absolute md:hidden top-full transition-transform left-0 w-full h-screen text-neutral-100 animate-[scrollToBottom_1s]">
                     <div className="flex flex-col text-2xl divide-y divide-slate-500 bg-slate-600 z-10 text-center">
                         <a href="#home" className="w-full py-5" onClick={() => setHamburger(false)}>
                             Home

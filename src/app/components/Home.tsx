@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 export default function Home() {
     const [role, setRole] = useState("Backend Engineer Intern");
     useEffect(() => {
-        const roles = ["Backend Engineer Intern", "Computer Science Student", "Daydreamer", "Nerd", "Melophile"];
+        const roles = ["Backend Engineer Intern", "Computer Science Student", "Daydreamer", "Melophile"];
         let i = 0;
         setInterval(() => {
             setRole(roles[i]);
