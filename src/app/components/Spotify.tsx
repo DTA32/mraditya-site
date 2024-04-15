@@ -42,6 +42,8 @@ export default function Spotify() {
                     ? data.data.playing_data.item.href
                     : "https://open.spotify.com/user/t56tgotgnyyhud9rkhvbabz7a"
             }
+            target="_blank"
+            rel="noreferrer noopener"
             className={`hidden ${isPlaying && "lg:block"} h-2/3 select-none min-w-[240px] max-w-[360px]`}
         >
             <div className="group relative h-full w-full">

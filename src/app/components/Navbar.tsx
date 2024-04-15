@@ -41,16 +41,16 @@ export default function Navbar() {
                     MR
                 </a>
                 <div className="md:flex flex-row gap-x-10 text-2xl hidden">
-                    <a href="#home" className="hover:underline hover:underline-offset-2 hover:decoration-1">
+                    <a href="#home" className="linkHover">
                         Home
                     </a>
-                    <a href="#about" className="hover:underline hover:underline-offset-2 hover:decoration-1">
+                    <a href="#about" className="linkHover">
                         About
                     </a>
-                    <a href="#portfolio" className="hover:underline hover:underline-offset-2 hover:decoration-1">
+                    <a href="#portfolio" className="linkHover">
                         Portfolio
                     </a>
-                    <a href="#contact" className="hover:underline hover:underline-offset-2 hover:decoration-1">
+                    <a href="#contact" className="linkHover">
                         Contact
                     </a>
                 </div>

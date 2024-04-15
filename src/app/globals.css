@@ -29,3 +29,30 @@ body {
         transform: translateY(0);
     }
 }
+
+/* taken from https://tobiasahlin.com/blog/css-trick-animating-link-underlines/  */
+.linkHover {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+}
+.linkHover:hover {
+    color: #ffffff;
+}
+.linkHover:hover::before {
+    transform: scaleX(1);
+}
+.linkHover::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+/* end */

@@ -100,6 +100,8 @@ export default function PortfolioModal(props: { data: PortfolioModalProps; close
                         {props.data.githubLink && (
                             <a
                                 href={props.data.githubLink}
+                                target="_blank"
+                                rel="noreferrer noopener"
                                 className="underline underline-offset-2 hover:underline-offset-4 duration-300 after:content-['_↗']"
                             >
                                 <FontAwesomeIcon icon={faGithub} />
@@ -109,6 +111,8 @@ export default function PortfolioModal(props: { data: PortfolioModalProps; close
                         {props.data.publicLink && (
                             <a
                                 href={props.data.publicLink}
+                                target="_blank"
+                                rel="noreferrer noopener"
                                 className="underline underline-offset-2 hover:underline-offset-4 duration-300 after:content-['_↗']"
                             >
                                 <FontAwesomeIcon icon={faLink} />
