@@ -24,12 +24,13 @@
             }
         ],
         "githubLink": "https://github.com/DTA32/cash-in",
-        "publicLink": ""
+        "publicLink": "",
+        "videoLink": ""
     },
     {
         "id": "tiketin",
         "title": "TIKETIN",
-        "status": 3,
+        "status": 4,
         "description": "Airline ticket reservation website made for fulfilling Software Engineering final project. Advantage of this website is user can choose desired seat when booking a flight",
         "image": [
             "login.png",
@@ -62,7 +63,8 @@
             }
         ],
         "githubLink": "https://github.com/DTA32/airline-v1",
-        "publicLink": ""
+        "publicLink": "https://tiketin.dta32.my.id",
+        "videoLink": ""
     },
     {
         "id": "raamen",
@@ -99,7 +101,8 @@
             }
         ],
         "githubLink": "https://github.com/MaulanaAhmadSulami/Raamen/",
-        "publicLink": ""
+        "publicLink": "",
+        "videoLink": "https://youtu.be/NoGv6MDAJbg"
     },
     {
         "id": "dfgs",
@@ -137,7 +140,8 @@
             }
         ],
         "githubLink": "https://github.com/DTA32/ofgs",
-        "publicLink": ""
+        "publicLink": "https://dfgs.dta32.my.id",
+        "videoLink": ""
     },
     {
         "id": "mraditya-site",
@@ -165,12 +169,13 @@
             }
         ],
         "githubLink": "https://github.com/DTA32/mraditya-site",
-        "publicLink": "https://mraditya.works/"
+        "publicLink": "https://mraditya.works/",
+        "videoLink": ""
     },
     {
         "id": "vern",
         "title": "VERN - Vehicle Rental",
-        "status": 3,
+        "status": 4,
         "description": "Vehicle rental website made for Final Project on Web Programming course. On this project i’ve assigned as Full-Stack Developer but more focused on backend, mainly integrating external services into this website, such as Google OAuth, Midtrans Payment Gateway, and Mailtrap Email Delivery.",
         "image": [
             "dashboard.png",
@@ -202,7 +207,8 @@
             }
         ],
         "githubLink": "https://github.com/vincentalexx/Vern/",
-        "publicLink": ""
+        "publicLink": "https://vern.dta32.my.id",
+        "videoLink": ""
     },
     {
         "id": "internet-clafes",
@@ -234,6 +240,7 @@
             }
         ],
         "githubLink": "https://github.com/DTA32/ooadproject",
-        "publicLink": ""
+        "publicLink": "",
+        "videoLink": ""
     }
 ]

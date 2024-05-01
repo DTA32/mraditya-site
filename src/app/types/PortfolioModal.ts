@@ -9,4 +9,5 @@ export interface PortfolioModalProps {
     techStack: TechStack[];
     githubLink: string;
     publicLink?: string;
+    videoLink?: string;
 }

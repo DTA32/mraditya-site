@@ -17,6 +17,7 @@ export default function Portfolio() {
         techStack: [],
         githubLink: "",
         publicLink: "",
+        videoLink: ""
     });
     function closeModal() {
         setModal(false);

@@ -2,9 +2,6 @@
 import { PortfolioModalProps } from "../types/PortfolioModal";
 import { useEffect } from "react";
 import Image from "next/image";
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-config.autoAddCss = false;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -117,6 +114,17 @@ export default function PortfolioModal(props: { data: PortfolioModalProps; close
                             >
                                 <FontAwesomeIcon icon={faLink} />
                                 <span className="ps-1">Public Link</span>
+                            </a>
+                        )}
+                        {props.data.videoLink && (
+                            <a
+                                href={props.data.videoLink}
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="underline underline-offset-2 hover:underline-offset-4 duration-300 after:content-['_↗']"
+                            >
+                                <FontAwesomeIcon icon={faLink} />
+                                <span className="ps-1">Video Link</span>
                             </a>
                         )}
                     </div>

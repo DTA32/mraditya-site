@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="flex flex-row justify-between px-8 items-center gap-x-20 bg-slate-950 h-full">
                 <div className="flex flex-row gap-x-0 md:gap-x-20 text-neutral-100 items-center w-full md:w-fit justify-between md:justify-normal">
                     <div className="flex md:hidden">
-                        <button className="relative" onClick={() => setHamburger(!hamburger)}>
+                        <button aria-label="Dropdown" className="relative" onClick={() => setHamburger(!hamburger)}>
                             <div
                                 className={`relative flex overflow-hidden items-center justify-center rounded w-[50px] h-[50px] transform transition-all ring-gray-300 ${
                                     hamburger ? "ring-2" : "ring-0"

@@ -88,5 +88,10 @@
         "icon": "laravel",
         "iconVar": "original",
         "name": "Laravel"
+    },
+    {
+        "icon": "nginx",
+        "iconVar": "original",
+        "name": "Nginx"
     }
 ]
