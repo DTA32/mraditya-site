@@ -56,7 +56,7 @@ export default function PortfolioModal(props: { data: PortfolioModalProps; close
                         {props.data.image.map((image) => (
                             <SwiperSlide key={image} className="only:w-[516px]">
                                 <Image
-                                    src={`/portfolio/${props.data.id}/${image}`}
+                                    src={`https://assets.mraditya.works/portfolio/${props.data.id}/${image}`}
                                     alt={props.data.title}
                                     width={480}
                                     height={480}
