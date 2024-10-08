@@ -242,5 +242,34 @@
         "githubLink": "https://github.com/DTA32/ooadproject",
         "publicLink": "",
         "videoLink": ""
+    },
+    {
+        "id": "homeserver",
+        "title": "Home Server",
+        "status": 4,
+        "description": "Actually this is not a project, i just want to show my old laptop that's now turned into server and i'm proud of it :D. This 2012 Thinkpad now holds five personal project in each docker container and served using NGINX reverse proxy with 10% uptime (online based on my mood) and < 10 concurrent visitor capacity, actually it can serve hundreds of user based on specs but due to cooling system issue it'll be no more than that",
+        "image": [
+            "x201.jpg"
+        ],
+        "techStack": [
+            {
+                "icon": "ubuntu",
+                "iconVar": "plain",
+                "name": "Ubuntu"
+            },
+            {
+                "icon": "nginx",
+                "iconVar": "original",
+                "name": "NGINX"
+            },
+            {
+                "icon": "docker",
+                "iconVar": "plain",
+                "name": "Docker"
+            }
+        ],
+        "githubLink": "https://github.com/DTA32/homeserver",
+        "publicLink": "",
+        "videoLink": ""
     }
 ]
