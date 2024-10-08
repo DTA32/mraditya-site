@@ -9,7 +9,7 @@ export default function About() {
             id="about"
         >
             <Image
-                src="https://assets.mraditya.works/meh.jpg"
+                src="https://assets.mraditya.my.id/meh.jpg"
                 alt="meh"
                 width={480}
                 height={480}

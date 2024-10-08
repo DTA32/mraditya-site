@@ -31,7 +31,7 @@ export default function Home() {
                 rel="noreferrer noopener"
                 target="_blank"
             >
-                <Image src="https://assets.mraditya.works/robot.png" alt="robot picture" width={200} height={200} className="peer" loading="eager" />
+                <Image src="https://assets.mraditya.my.id/robot.png" alt="robot picture" width={200} height={200} className="peer" loading="eager" />
                 <small className="text-stone-200 invisible peer-hover:visible">&copy; Google 404</small>
             </a>
         </section>

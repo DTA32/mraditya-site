@@ -14,7 +14,7 @@ const nextConfig = {
             },
             {
                 protocol: "https",
-                hostname: "assets.mraditya.works",
+                hostname: "assets.mraditya.my.id",
                 pathname: "/**",
             },
         ],

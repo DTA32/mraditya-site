@@ -14,9 +14,9 @@ export const metadata: Metadata = {
         title: "MRaditya Portfolio Site",
         description: "Take a look at my portfolio site!",
         siteName: "MRaditya Portfolio Site",
-        images: { url: "https://assets.mraditya.works/robot.png", alt: "MRaditya Portfolio Site" },
+        images: { url: "https://assets.mraditya.my.id/robot.png", alt: "MRaditya Portfolio Site" },
         type: "website",
-        url: "https://mraditya.works",
+        url: "https://mraditya.my.id",
     },
 };
 
