@@ -62,7 +62,7 @@ export default function Spotify() {
                     </div>
                     <div className="grid grid-rows-2 h-full">
                         <p className="text-gray-300 text-xs self-end">Currently listening to</p>
-                        <p className="truncate w-full text-white">
+                        <p className="truncate w-full text-white text-sm">
                             {isPlaying && isSong
                                 ? `${data.data.playing_data.item.artist.name} - ${data.data.playing_data.item.name}`
                                 : !isPlaying

@@ -5,13 +5,13 @@ import Spotify from "./Spotify";
 export default function Navbar() {
     const [hamburger, setHamburger] = useState(false);
     return (
-        <nav className="flex flex-col h-[10vh] sticky top-0 z-10">
+        <nav className="flex flex-col h-[8vh] sticky top-0 z-10">
             <div className="flex flex-row justify-between px-8 items-center gap-x-20 bg-slate-950 h-full">
                 <div className="flex flex-row gap-x-0 md:gap-x-20 text-neutral-100 items-center w-full md:w-fit justify-between md:justify-normal">
                     <div className="flex md:hidden">
                         <button aria-label="Dropdown" className="relative" onClick={() => setHamburger(!hamburger)}>
                             <div
-                                className={`relative flex overflow-hidden items-center justify-center rounded w-[50px] h-[50px] transform transition-all ring-gray-300 ${
+                                className={`relative flex overflow-hidden items-center justify-center rounded w-[36px] h-[36px] transform transition-all ring-gray-300 ${
                                     hamburger ? "ring-2" : "ring-0"
                                 } ring-opacity-30 duration-200 shadow-md`}
                             >
@@ -37,12 +37,12 @@ export default function Navbar() {
                     </div>
                     <a
                         href="#home"
-                        className="text-4xl select-none grow md:grow-0 text-center md:text-left pe-[50px] md:pe-0"
+                        className="text-3xl select-none grow md:grow-0 text-center md:text-left pe-[50px] md:pe-0"
                         onClick={() => setHamburger(false)}
                     >
                         MR
                     </a>
-                    <div className="md:flex flex-row gap-x-10 text-2xl hidden">
+                    <div className="md:flex flex-row gap-x-10 text-xl hidden">
                         <a href="#home" className="linkHover">
                             Home
                         </a>
@@ -62,16 +62,16 @@ export default function Navbar() {
             {hamburger && (
                 <div className="absolute md:hidden top-full transition-transform left-0 w-full h-screen text-neutral-100 animate-[scrollToBottom_1s] z-[-5]">
                     <div className="flex flex-col text-2xl divide-y divide-slate-500 bg-slate-600 z-[-5] text-center">
-                        <a href="#home" className="w-full py-5" onClick={() => setHamburger(false)}>
+                        <a href="#home" className="w-full py-4" onClick={() => setHamburger(false)}>
                             Home
                         </a>
-                        <a href="#about" className="w-full py-5" onClick={() => setHamburger(false)}>
+                        <a href="#about" className="w-full py-4" onClick={() => setHamburger(false)}>
                             About
                         </a>
-                        <a href="#portfolio" className="w-full py-5" onClick={() => setHamburger(false)}>
+                        <a href="#portfolio" className="w-full py-4" onClick={() => setHamburger(false)}>
                             Portfolio
                         </a>
-                        <a href="#contact" className="w-full py-5" onClick={() => setHamburger(false)}>
+                        <a href="#contact" className="w-full py-4" onClick={() => setHamburger(false)}>
                             Contact
                         </a>
                     </div>
