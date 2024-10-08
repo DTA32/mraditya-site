@@ -52,9 +52,10 @@ export default function PortfolioModal(props: { data: PortfolioModalProps; close
                         pagination={{ clickable: true }}
                         spaceBetween={5}
                         keyboard={{ enabled: true }}
+                        className="w-full"
                     >
                         {props.data.image.map((image) => (
-                            <SwiperSlide key={image} className="only:w-[516px]">
+                            <SwiperSlide key={image}>
                                 <Image
                                     src={`https://assets.mraditya.my.id/portfolio/${props.data.id}/${image}`}
                                     alt={props.data.title}
