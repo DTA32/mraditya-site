@@ -1,8 +1,13 @@
 [
     {
-        "icon": "javascript",
+        "icon": "c",
         "iconVar": "plain",
-        "name": "JavaScript"
+        "name": "C"
+    },
+    {
+        "icon": "cplusplus",
+        "iconVar": "plain",
+        "name": "C++"
     },
     {
         "icon": "java",
@@ -10,9 +15,9 @@
         "name": "Java"
     },
     {
-        "icon": "mysql",
-        "iconVar": "original",
-        "name": "SQL"
+        "icon": "python",
+        "iconVar": "plain",
+        "name": "Python"
     },
     {
         "icon": "go",
@@ -25,29 +30,19 @@
         "name": "ASP.NET (C#)"
     },
     {
+        "icon": "laravel",
+        "iconVar": "original",
+        "name": "Laravel"
+    },
+    {
+        "icon": "mysql",
+        "iconVar": "original",
+        "name": "SQL"
+    },
+    {
         "icon": "mongodb",
         "iconVar": "plain",
         "name": "MongoDB"
-    },
-    {
-        "icon": "nextjs",
-        "iconVar": "plain",
-        "name": "Next.js"
-    },
-    {
-        "icon": "express",
-        "iconVar": "original",
-        "name": "Express.js"
-    },
-    {
-        "icon": "typescript",
-        "iconVar": "plain",
-        "name": "TypeScript"
-    },
-    {
-        "icon": "git",
-        "iconVar": "plain",
-        "name": "Git"
     },
     {
         "icon": "html5",
@@ -60,19 +55,29 @@
         "name": "CSS"
     },
     {
-        "icon": "python",
+        "icon": "javascript",
         "iconVar": "plain",
-        "name": "Python"
+        "name": "JavaScript"
     },
     {
-        "icon": "c",
+        "icon": "typescript",
         "iconVar": "plain",
-        "name": "C"
+        "name": "TypeScript"
     },
     {
-        "icon": "cplusplus",
+        "icon": "react",
+        "iconVar": "original",
+        "name": "React"
+    },
+    {
+        "icon": "nextjs",
         "iconVar": "plain",
-        "name": "C++"
+        "name": "Next.js"
+    },
+    {
+        "icon": "express",
+        "iconVar": "original",
+        "name": "Express.js"
     },
     {
         "icon": "bootstrap",
@@ -85,13 +90,23 @@
         "name": "Tailwind"
     },
     {
-        "icon": "laravel",
-        "iconVar": "original",
-        "name": "Laravel"
+        "icon": "git",
+        "iconVar": "plain",
+        "name": "Git"
     },
     {
         "icon": "nginx",
         "iconVar": "original",
         "name": "Nginx"
+    },
+    {
+        "icon": "docker",
+        "iconVar": "plain",
+        "name": "Docker"
+    },
+    {
+        "icon": "kubernetes",
+        "iconVar": "plain",
+        "name": "Kubernetes"
     }
 ]
