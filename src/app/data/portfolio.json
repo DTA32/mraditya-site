@@ -266,6 +266,26 @@
                 "icon": "docker",
                 "iconVar": "plain",
                 "name": "Docker"
+            },
+            {
+                "icon": "kubernetes",
+                "iconVar": "plain",
+                "name": "Kubernetes"
+            },
+            {
+                "icon": "jenkins",
+                "iconVar": "plain",
+                "name": "Jenkins"
+            },
+            {
+                "icon": "cloudflare",
+                "iconVar": "plain",
+                "name": "Cloudflare Tunnel"
+            },
+            {
+                "icon": "bash",
+                "iconVar": "plain",
+                "name": "Tailscale"
             }
         ],
         "githubLink": "https://github.com/DTA32/homeserver",

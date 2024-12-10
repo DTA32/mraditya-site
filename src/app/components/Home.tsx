@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState, useMemo } from "react";
 
 export default function Home() {
-    const roles = useMemo(() => ["Backend Engineer Intern", "Computer Science Student", "Daydreamer", "Melophile"], []);
+    const roles = useMemo(() => ["Junior Backend Engineer", "Computer Science Student", "Daydreamer", "Melophile"], []);
     const [index, setIndex] = useState(0);
 
     useEffect(() => {

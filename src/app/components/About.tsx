@@ -17,8 +17,8 @@ export default function About() {
                     <h1 className="text-3xl md:text-4xl">About Me</h1>
                     <div className="text-md sm:text-lg md:text-xl flex flex-col gap-8">
                         <p>
-                            Hi, as said before, my name is MRaditya. I&apos;m an Backend Engineer Intern at 99.co while
-                            also studying at BINUS University, majoring in Computer Science. Interested in web
+                            Hi, as said before, my name is MRaditya. I&apos;m Junior Backend Engineer at 99.co while
+                            also still studying at BINUS University, majoring in Computer Science. Interested in web
                             development <small>(for now)</small>, but also have learned about database, desktop app
                             development, and UI/UX design.
                         </p>
