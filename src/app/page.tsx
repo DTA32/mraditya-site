@@ -1,4 +1,4 @@
-import Home from "./components/Home";
+// import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
@@ -10,8 +10,8 @@ export default function Page() {
         <div>
             <Navbar />
             <main>
-                <Home />
-                <div className="bg-gradient-to-b h-12 from-slate-800 to-slate-900"></div>
+                {/*<Home />*/}
+                {/*<div className="bg-gradient-to-b h-12 from-slate-800 to-slate-900"></div>*/}
                 <About />
                 <div className="bg-gradient-to-b h-12 from-slate-900 to-slate-800"></div>
                 <Portfolio />
