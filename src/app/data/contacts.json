@@ -1,11 +1,5 @@
 [
     {
-        "icon": "instagram",
-        "platform": "Instagram",
-        "username": "@mraditya32",
-        "link": "https://instagram.com/mraditya32"
-    },
-    {
         "icon": "google",
         "platform": "Email",
         "username": "mraditya203@gmail.com",
@@ -16,5 +10,11 @@
         "platform": "Linkedin",
         "username": "Muhammad Raditya",
         "link": "https://www.linkedin.com/in/muhammad--raditya/"
+    },
+    {
+        "icon": "instagram",
+        "platform": "Instagram",
+        "username": "@mraditya32",
+        "link": "https://instagram.com/mraditya32"
     }
 ]
