@@ -44,7 +44,7 @@ export default function Spotify() {
             }
             target="_blank"
             rel="noreferrer noopener"
-            className={`hidden ${isPlaying && "lg:block"} h-2/3 select-none min-w-[240px] max-w-[360px]`}
+            className={`hidden ${isPlaying && "md:block"} h-2/3 select-none min-w-[240px] max-w-[360px]`}
         >
             <div className="group relative h-full w-full">
                 <div className="flex flex-row px-2 h-full w-full items-center gap-x-2 group-hover:brightness-[0.25] duration-300">
