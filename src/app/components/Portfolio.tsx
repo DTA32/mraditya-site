@@ -1,8 +1,8 @@
 "use client";
 import PortfolioCard from "./PortfolioCard";
 import PortfolioJSON from "../data/portfolio.json";
-import { useState } from "react";
-import { PortfolioModalProps } from "../types/PortfolioModal";
+import {useState} from "react";
+import {PortfolioModalProps} from "../types/PortfolioModal";
 import PortfolioModal from "./PortfolioModal";
 import ContactCard from "./ContactCard";
 
@@ -19,9 +19,11 @@ export default function Portfolio() {
         publicLink: "",
         videoLink: "",
     });
+
     function closeModal() {
         setModal(false);
     }
+
     return (
         <>
             <section
@@ -53,9 +55,11 @@ export default function Portfolio() {
                                     setModalData(portfolio);
                                     setModal(true);
                                 }}
-                                className="flex justify-center cursor-pointer aspect-square max-w-[320px] max-h-[320px]"
+                                className="flex justify-center cursor-pointer w-full md:w-[calc(50%-2rem)] max-h-[240px]"
                             >
-                                <PortfolioCard id={portfolio.id} title={portfolio.title} image={portfolio.image[0]}/>
+                                <PortfolioCard id={portfolio.id} title={portfolio.title} image={portfolio.image[0]}
+                                               description={portfolio.description}
+                                               techStack={portfolio.techStack.slice(0, 3)}/>
                             </div>
                         ))}
                     </div>
