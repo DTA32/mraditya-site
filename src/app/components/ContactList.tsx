@@ -6,7 +6,7 @@ export default function ContactList() {
     return (
         <div className="flex flex-col gap-8 w-full">
             <div className="text-center flex flex-col gap-4">
-                <h3 className="text-4xl">Contact</h3>
+                <h2 className="text-4xl">Contact</h2>
                 <div className="w-full flex justify-center">
                     <p className="max-w-sm">If you have any questions, or interested to collaborate with me, can reach me out via these</p>
                 </div>

@@ -24,6 +24,7 @@ export default function IntroText() {
 
     return (
         <div className="md:col-span-6 flex flex-col gap-2 justify-center max-h-[90vh] h-fit text-white">
+            <h1 className="hidden">Hello, i&apos;m Muhammad Raditya and i&apos;m a {roles[0]}</h1>
             <div className="text-2xl sm:text-3xl text-neutral-100 flex flex-col md:flex-row gap-x-2">
                 <h2>Hello,</h2>
                 <h2>i&apos;m Muhammad Raditya</h2>

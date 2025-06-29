@@ -48,7 +48,7 @@ export default function MessageForm() {
     }
     return (
         <div className="flex flex-col gap-8 w-full">
-            <h1 className="text-2xl text-center">Leave a message</h1>
+            <h3 className="text-2xl text-center">Leave a message</h3>
             <form onSubmit={handleSubmit} className="flex flex-col gap-4 items-center">
                 <div className="flex gap-4 w-full">
                     <input

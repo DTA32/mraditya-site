@@ -29,15 +29,18 @@ export default function Portfolio() {
                 id="portfolio"
             >
                 <div className="max-w-screen-xl flex flex-col gap-12 mx-8">
-                    <div className="flex w-full justify-center items-center gap-4">
-                        <h1 className="text-5xl text-center">Portfolio</h1>
-                        <ContactCard
-                            icon={"github"}
-                            platform={"GitHub"}
-                            username={"DTA32"}
-                            link={"https://github.com/DTA32"}
-                            type={0}
-                        />
+                    <div className="flex flex-col gap-2 text-center">
+                        <div className="flex w-full justify-center items-center gap-4">
+                            <h2 className="text-4xl">Portfolio</h2>
+                            <ContactCard
+                                icon={"github"}
+                                platform={"GitHub"}
+                                username={"DTA32"}
+                                link={"https://github.com/DTA32"}
+                                type={0}
+                            />
+                        </div>
+                        <p>Mostly from uni projects, while few others is my personal project during free time</p>
                     </div>
                     <div
                         className="flex justify-center flex-wrap gap-x-16 gap-y-8 md:gap-y-12"
