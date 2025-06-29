@@ -74,6 +74,11 @@
       "icon": "kubernetes",
       "iconVar": "plain",
       "name": "Kubernetes"
+    },
+    {
+      "icon": "vuejs",
+      "iconVar": "plain",
+      "name": "Vue.js"
     }
   ],
   "old": [

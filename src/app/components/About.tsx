@@ -30,12 +30,10 @@ export default function About() {
                                         LinkedIn
                                     </a>
                                     ).
-                                </small> Computer Science Graduate <small>(soon)</small> from BINUS University. Right
-                                now
-                                i&apos;m more into web
-                                development (covering Frontend, Backend, RDBMS), while also have learned about DevOps
-                                and
-                                System Architecture, beside that i have shallow understanding of desktop app
+                                </small> Computer Science Graduate <small>(soon)</small>&nbsp;
+                                from BINUS University. Right now i&apos;m more into web development 
+                                (covering Frontend, Backend, RDBMS), while also have learned about DevOps, Cloud, 
+                                and System Architecture. Beside those i&apos;ve also tried a little bit on desktop app
                                 development, UI/UX design, and Machine Learning.
                             </p>
                         </div>
