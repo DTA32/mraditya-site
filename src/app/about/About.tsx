@@ -1,7 +1,7 @@
 import Image from "next/image";
-import about from "../data/about.json";
-import TechStackPill from "./TechStackPill";
-import IntroText from "@/app/components/IntroText";
+import about from "@/data/about.json";
+import TechStackPill from "@/components/TechStackPill";
+import IntroText from "./IntroText";
 
 export default function About() {
     return (

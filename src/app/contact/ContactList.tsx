@@ -1,5 +1,5 @@
-import ContactCard from "./ContactCard";
-import ContactsJSON from "../data/contacts.json";
+import ContactCard from "@/components/ContactCard";
+import ContactsJSON from "@/data/contacts.json";
 import { IconName } from "@fortawesome/fontawesome-svg-core";
 
 export default function ContactList() {

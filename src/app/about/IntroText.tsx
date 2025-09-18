@@ -1,6 +1,6 @@
 "use client";
 import {useEffect, useMemo, useState} from "react";
-import '@/app/styles/IntroTextAnimation.css';
+import './IntroTextAnimation.css';
 
 export default function IntroText() {
     const roles = useMemo(() => ["Junior Backend Engineer", "Computer Science Student", "Daydreamer", "Melophile", "Professional Procrastinator", "Nostalgic Doomer"], []);

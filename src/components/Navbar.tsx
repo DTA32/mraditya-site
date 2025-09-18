@@ -1,7 +1,8 @@
 "use client";
 import Spotify from "./Spotify";
 import Image from "next/image";
-import {useScrollPosition} from "../hooks/useScrollPosition";
+import {useScrollPosition} from "@/hooks/useScrollPosition";
+import Link from "next/link";
 
 export default function Navbar() {
     const {scrollY, activeSection} = useScrollPosition();
@@ -16,7 +17,7 @@ export default function Navbar() {
             }`}>
                 <div
                     className="flex flex-row gap-x-0 md:gap-x-20 text-neutral-100 items-center w-full md:w-fit justify-center md:justify-normal">
-                    <a href="#about">
+                    <Link href="/">
                         <Image
                             src="https://assets.mraditya.my.id/robot.png"
                             alt="robot picture"
@@ -25,26 +26,26 @@ export default function Navbar() {
                             className="w-10 h-full"
                             loading="eager"
                         />
-                    </a>
+                    </Link>
                     <div className="md:flex flex-row gap-x-10 text-xl hidden">
-                        <a
-                            href="#about"
+                        <Link
+                            href="/about"
                             className={`linkHover ${activeSection === 'about' ? 'active' : ''}`}
                         >
                             About
-                        </a>
-                        <a
-                            href="#portfolio"
+                        </Link>
+                        <Link
+                            href="/portfolio"
                             className={`linkHover ${activeSection === 'portfolio' ? 'active' : ''}`}
                         >
                             Portfolio
-                        </a>
-                        <a
-                            href="#contact"
+                        </Link>
+                        <Link
+                            href="/contact"
                             className={`linkHover ${activeSection === 'contact' ? 'active' : ''}`}
                         >
                             Contact
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <Spotify/>

@@ -1,12 +1,13 @@
 "use client";
 import PortfolioCard from "./PortfolioCard";
-import PortfolioJSON from "../data/portfolio.json";
+import PortfolioJSON from "@/data/portfolio.json";
 import {useState} from "react";
-import {PortfolioModalProps} from "../types/PortfolioModal";
+import {PortfolioModalProps} from "@/types/PortfolioModal";
 import PortfolioModal from "./PortfolioModal";
-import ContactCard from "./ContactCard";
+import ContactCard from "@/components/ContactCard";
+import Link from "next/link";
 
-export default function Portfolio() {
+export default function Portfolio({ redirectToPage } : { redirectToPage: boolean}) {
     const [modal, setModal] = useState(false); //
     const [modalData, setModalData] = useState<PortfolioModalProps>({
         id: "",
@@ -22,6 +23,37 @@ export default function Portfolio() {
 
     function closeModal() {
         setModal(false);
+    }
+    var cards: JSX.Element[]; 
+    if (redirectToPage) {
+        cards = PortfolioJSON.map((portfolio) => (
+            <Link
+                key={portfolio.title}
+                href={"/portfolio/" + portfolio.id}
+                className="flex justify-center cursor-pointer w-full md:w-[calc(50%-2rem)] max-h-[240px]"
+            >
+                <PortfolioCard id={portfolio.id} title={portfolio.title} image={portfolio.image[0]}
+                               description={portfolio.description}
+                               techStack={portfolio.techStack.slice(0, 3)}
+                               redirectToPage={redirectToPage}/>
+            </Link>
+        ))
+    } else {
+        cards = PortfolioJSON.map((portfolio) => (
+            <div
+                key={portfolio.title}
+                onClick={() => {
+                    setModalData(portfolio);
+                    setModal(true);
+                }}
+                className="flex justify-center cursor-pointer w-full md:w-[calc(50%-2rem)] max-h-[240px]"
+            >
+                <PortfolioCard id={portfolio.id} title={portfolio.title} image={portfolio.image[0]}
+                               description={portfolio.description}
+                               techStack={portfolio.techStack.slice(0, 3)}
+                               redirectToPage={redirectToPage}/>
+            </div>
+        ))
     }
 
     return (
@@ -48,20 +80,7 @@ export default function Portfolio() {
                         className="flex justify-center flex-wrap gap-x-16 gap-y-8 md:gap-y-12"
                         style={{height: "-webkit-fill-available"}}
                     >
-                        {PortfolioJSON.map((portfolio) => (
-                            <div
-                                key={portfolio.title}
-                                onClick={() => {
-                                    setModalData(portfolio);
-                                    setModal(true);
-                                }}
-                                className="flex justify-center cursor-pointer w-full md:w-[calc(50%-2rem)] max-h-[240px]"
-                            >
-                                <PortfolioCard id={portfolio.id} title={portfolio.title} image={portfolio.image[0]}
-                                               description={portfolio.description}
-                                               techStack={portfolio.techStack.slice(0, 3)}/>
-                            </div>
-                        ))}
+                        {cards}
                     </div>
                 </div>
             </section>

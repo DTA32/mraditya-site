@@ -1,4 +1,4 @@
-import {TechStack} from "@/app/types/TechStack";
+import {TechStack} from "@/types/TechStack";
 
 export interface PortfolioCardProps {
     id: string;
@@ -6,4 +6,5 @@ export interface PortfolioCardProps {
     image: string;
     description: string;
     techStack: TechStack[];
+    redirectToPage?: boolean;
 }
