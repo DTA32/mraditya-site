@@ -23,7 +23,7 @@ export default function MessageForm() {
             return;
         }
         setLoading(true);
-        const result = await fetch("https://www.dta32.my.id/api/v2/message", {
+        const result = await fetch("https://dta32.my.id/api/v2/message", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name: name, email: email, content: message }),

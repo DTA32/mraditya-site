@@ -3,7 +3,7 @@ import useSWR from "swr";
 import Image from "next/image";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
-const apiURL = "https://www.dta32.my.id/api/v2/spotify/nowPlaying";
+const apiURL = "https://dta32.my.id/api/v2/spotify/nowPlaying";
 
 export default function Spotify() {
     const { data, error, isLoading } = useSWR(`${apiURL}`, fetcher);
