@@ -1,14 +1,14 @@
 {
   "recent": [
     {
-      "icon": "java",
-      "iconVar": "plain",
-      "name": "Java"
-    },
-    {
       "icon": "python",
       "iconVar": "plain",
       "name": "Python"
+    },
+    {
+      "icon": "java",
+      "iconVar": "plain",
+      "name": "Java"
     },
     {
       "icon": "go",
@@ -24,11 +24,6 @@
       "icon": "mongodb",
       "iconVar": "plain",
       "name": "MongoDB"
-    },
-    {
-      "icon": "javascript",
-      "iconVar": "plain",
-      "name": "JavaScript"
     },
     {
       "icon": "typescript",
@@ -76,22 +71,17 @@
       "name": "Kubernetes"
     },
     {
+      "icon": "jenkins",
+      "iconVar": "plain",
+      "name": "Jenkins"
+    },
+    {
       "icon": "vuejs",
       "iconVar": "plain",
       "name": "Vue.js"
     }
   ],
   "old": [
-    {
-      "icon": "c",
-      "iconVar": "plain",
-      "name": "C"
-    },
-    {
-      "icon": "cplusplus",
-      "iconVar": "plain",
-      "name": "C++"
-    },
     {
       "icon": "dot-net",
       "iconVar": "plain",
@@ -111,6 +101,11 @@
       "icon": "css3",
       "iconVar": "plain",
       "name": "CSS"
+    },
+    {
+      "icon": "cplusplus",
+      "iconVar": "plain",
+      "name": "C++"
     }
   ]
 }

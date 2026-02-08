@@ -1,20 +1,20 @@
 [
-    {
-        "icon": "google",
-        "platform": "Email",
-        "username": "mraditya203@gmail.com",
-        "link": "mailto:mraditya203@gmail.com"
-    },
-    {
-        "icon": "linkedin",
-        "platform": "Linkedin",
-        "username": "Muhammad Raditya",
-        "link": "https://www.linkedin.com/in/muhammad--raditya/"
-    },
-    {
-        "icon": "instagram",
-        "platform": "Instagram",
-        "username": "@mraditya32",
-        "link": "https://instagram.com/mraditya32"
-    }
+  {
+    "icon": "google",
+    "platform": "Email",
+    "username": "contact@mraditya.my.id",
+    "link": "mailto:contact@mraditya.my.id"
+  },
+  {
+    "icon": "linkedin",
+    "platform": "Linkedin",
+    "username": "Muhammad Raditya",
+    "link": "https://www.linkedin.com/in/muhammad--raditya/"
+  },
+  {
+    "icon": "instagram",
+    "platform": "Instagram",
+    "username": "@mraditya32",
+    "link": "https://instagram.com/mraditya32"
+  }
 ]

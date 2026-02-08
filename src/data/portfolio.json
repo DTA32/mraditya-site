@@ -1,295 +1,428 @@
-[
+{
+  "main": [
     {
-        "id": "homeserver",
-        "title": "Home Server",
-        "status": 4,
-        "description": "Actually this is not a project, i just want to show my old laptop that's now turned into server and i'm proud of it :D. This 2012 Thinkpad now holds five personal project in each docker container and served using NGINX reverse proxy with 10% uptime (online based on my mood) and < 10 concurrent visitor capacity, actually it can serve hundreds of user based on specs but due to cooling system issue it'll be no more than that",
-        "image": [
-            "x201.jpg"
-        ],
-        "techStack": [
-            {
-                "icon": "ubuntu",
-                "iconVar": "plain",
-                "name": "Ubuntu"
-            },
-            {
-                "icon": "nginx",
-                "iconVar": "original",
-                "name": "NGINX"
-            },
-            {
-                "icon": "docker",
-                "iconVar": "plain",
-                "name": "Docker"
-            },
-            {
-                "icon": "kubernetes",
-                "iconVar": "plain",
-                "name": "Kubernetes"
-            },
-            {
-                "icon": "jenkins",
-                "iconVar": "plain",
-                "name": "Jenkins"
-            },
-            {
-                "icon": "cloudflare",
-                "iconVar": "plain",
-                "name": "Cloudflare Tunnel"
-            },
-            {
-                "icon": "bash",
-                "iconVar": "plain",
-                "name": "Tailscale"
-            }
-        ],
-        "githubLink": "https://github.com/DTA32/homeserver",
-        "publicLink": "",
-        "videoLink": ""
+      "id": "homeserver",
+      "title": "Home Server",
+      "status": 5,
+      "description": "Actually this is not a project, i just want to show my old laptop that's now turned into server and i'm proud of it :D. This 2012 Thinkpad is the place where i learn to run multiple personal project in containerized environment, deployed using Docker and Kubernetes, and served using NGINX reverse proxy and Cloudflare Tunnel as my ISP doesn't give me public IP, slide to see the architecture. Uptime SLA is 10% as there's electricity bill and cooling system constraints. Update: This server is not running anymore as i moved to another city, so those projects are now hosted on VPS",
+      "image": ["x201.jpg"],
+      "techStack": [
+        {
+          "icon": "ubuntu",
+          "iconVar": "plain",
+          "name": "Ubuntu"
+        },
+        {
+          "icon": "nginx",
+          "iconVar": "original",
+          "name": "NGINX"
+        },
+        {
+          "icon": "docker",
+          "iconVar": "plain",
+          "name": "Docker"
+        },
+        {
+          "icon": "kubernetes",
+          "iconVar": "plain",
+          "name": "Kubernetes"
+        },
+        {
+          "icon": "jenkins",
+          "iconVar": "plain",
+          "name": "Jenkins"
+        },
+        {
+          "icon": "cloudflare",
+          "iconVar": "plain",
+          "name": "Cloudflare Tunnel"
+        },
+        {
+          "icon": "bash",
+          "iconVar": "plain",
+          "name": "Tailscale"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/homeserver",
+      "publicLink": "",
+      "videoLink": ""
     },
     {
-        "id": "vern",
-        "title": "VERN - Vehicle Rental",
-        "status": 4,
-        "description": "Vehicle rental website made for Final Project on Web Programming course. On this project i’ve assigned as Full-Stack Developer but more focused on backend, mainly integrating external services into this website, such as Google OAuth, Midtrans Payment Gateway, and Mailtrap Email Delivery.",
-        "image": [
-            "dashboard.png",
-            "searchresults.png",
-            "vehicledetail.png",
-            "orderdetail.png",
-            "orderhistory.png"
-        ],
-        "techStack": [
-            {
-                "icon": "laravel",
-                "iconVar": "original",
-                "name": "Laravel"
-            },
-            {
-                "icon": "react",
-                "iconVar": "original",
-                "name": "React"
-            },
-            {
-                "icon": "postgresql",
-                "iconVar": "plain",
-                "name": "PostgreSQL"
-            },
-            {
-                "icon": "tailwindcss",
-                "iconVar": "original",
-                "name": "Tailwind"
-            }
-        ],
-        "githubLink": "https://github.com/vincentalexx/Vern/",
-        "publicLink": "https://vern.dta32.my.id",
-        "videoLink": ""
+      "id": "vern",
+      "title": "VERN - Vehicle Rental",
+      "status": 4,
+      "description": "Vehicle rental website made for Final Project on Web Programming course. On this project i’ve assigned as Full-Stack Developer but more focused on backend, mainly integrating external services into this website, such as Google OAuth, Midtrans Payment Gateway, and Mailtrap Email Delivery.",
+      "image": [
+        "dashboard.png",
+        "searchresults.png",
+        "vehicledetail.png",
+        "orderdetail.png",
+        "orderhistory.png"
+      ],
+      "techStack": [
+        {
+          "icon": "laravel",
+          "iconVar": "original",
+          "name": "Laravel"
+        },
+        {
+          "icon": "react",
+          "iconVar": "original",
+          "name": "React"
+        },
+        {
+          "icon": "postgresql",
+          "iconVar": "plain",
+          "name": "PostgreSQL"
+        },
+        {
+          "icon": "tailwindcss",
+          "iconVar": "original",
+          "name": "Tailwind"
+        }
+      ],
+      "githubLink": "https://github.com/vincentalexx/Vern/",
+      "publicLink": "https://vern.dta32.my.id",
+      "videoLink": ""
     },
     {
-        "id": "dfgs",
-        "title": "Flash Game Site",
-        "status": 2,
-        "description": "Personal project created to learn all of tech stack below, mainly to learn how to create backend with Express and how to fetch API on Next.js. This website contains collection of Flash-based games from the 2010s",
-        "image": [
-            "dfgs.png"
-        ],
-        "techStack": [
-            {
-                "icon": "react",
-                "iconVar": "original",
-                "name": "React"
-            },
-            {
-                "icon": "nextjs",
-                "iconVar": "plain",
-                "name": "Next.js"
-            },
-            {
-                "icon": "tailwindcss",
-                "iconVar": "original",
-                "name": "Tailwind"
-            },
-            {
-                "icon": "express",
-                "iconVar": "original",
-                "name": "Express (Node.js)"
-            },
-            {
-                "icon": "mongodb",
-                "iconVar": "plain",
-                "name": "MongoDB"
-            }
-        ],
-        "githubLink": "https://github.com/DTA32/ofgs",
-        "publicLink": "https://dfgs.dta32.my.id",
-        "videoLink": ""
+      "id": "dfgs",
+      "title": "Flash Game Site",
+      "status": 2,
+      "description": "Personal project created to learn all of tech stack below, mainly to learn how to create backend with Express and how to fetch API on Next.js. This website contains collection of Flash-based games from the 2010s",
+      "image": ["dfgs.png"],
+      "techStack": [
+        {
+          "icon": "react",
+          "iconVar": "original",
+          "name": "React"
+        },
+        {
+          "icon": "nextjs",
+          "iconVar": "plain",
+          "name": "Next.js"
+        },
+        {
+          "icon": "tailwindcss",
+          "iconVar": "original",
+          "name": "Tailwind"
+        },
+        {
+          "icon": "express",
+          "iconVar": "original",
+          "name": "Express (Node.js)"
+        },
+        {
+          "icon": "mongodb",
+          "iconVar": "plain",
+          "name": "MongoDB"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/ofgs",
+      "publicLink": "https://dfgs.dta32.my.id",
+      "videoLink": ""
     },
     {
-        "id": "tiketin",
-        "title": "TIKETIN",
-        "status": 4,
-        "description": "Airline ticket reservation website made for fulfilling Software Engineering final project. Advantage of this website is user can choose desired seat when booking a flight",
-        "image": [
-            "login.png",
-            "home.png",
-            "step1.png",
-            "step3.png",
-            "history.png",
-            "eticket.png"
-        ],
-        "techStack": [
-            {
-                "icon": "php",
-                "iconVar": "plain",
-                "name": "PHP"
-            },
-            {
-                "icon": "laravel",
-                "iconVar": "original",
-                "name": "Laravel"
-            },
-            {
-                "icon": "sqlite",
-                "iconVar": "plain",
-                "name": "SQLite"
-            },
-            {
-                "icon": "bootstrap",
-                "iconVar": "plain",
-                "name": "Bootstrap"
-            }
-        ],
-        "githubLink": "https://github.com/DTA32/airline-v1",
-        "publicLink": "https://tiketin.dta32.my.id",
-        "videoLink": ""
+      "id": "tiketin",
+      "title": "TIKETIN",
+      "status": 4,
+      "description": "Airline ticket reservation website made for fulfilling Software Engineering final project. Advantage of this website is user can choose desired seat when booking a flight",
+      "image": [
+        "login.png",
+        "home.png",
+        "step1.png",
+        "step3.png",
+        "history.png",
+        "eticket.png"
+      ],
+      "techStack": [
+        {
+          "icon": "php",
+          "iconVar": "plain",
+          "name": "PHP"
+        },
+        {
+          "icon": "laravel",
+          "iconVar": "original",
+          "name": "Laravel"
+        },
+        {
+          "icon": "sqlite",
+          "iconVar": "plain",
+          "name": "SQLite"
+        },
+        {
+          "icon": "bootstrap",
+          "iconVar": "plain",
+          "name": "Bootstrap"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/airline-v1",
+      "publicLink": "https://tiketin.dta32.my.id",
+      "videoLink": ""
     },
     {
-        "id": "raamen",
-        "title": "RAAMEN",
-        "status": 3,
-        "description": "Ramen shop management website made for fulfilling Pattern Software Design final project, developed using Domain Driven Design. On this website, admin can create sales reports, staff can manage ramen and transaction queue, and user can order ramen",
-        "image": [
-            "login.png",
-            "admin1.png",
-            "admin2.png",
-            "staff.png",
-            "customer.png"
-        ],
-        "techStack": [
-            {
-                "icon": "csharp",
-                "iconVar": "plain",
-                "name": "C#"
-            },
-            {
-                "icon": "dot-net",
-                "iconVar": "plain",
-                "name": "ASP.NET"
-            },
-            {
-                "icon": "microsoftsqlserver",
-                "iconVar": "plain",
-                "name": "SQL Server"
-            },
-            {
-                "icon": "bootstrap",
-                "iconVar": "plain",
-                "name": "Bootstrap"
-            }
-        ],
-        "githubLink": "https://github.com/MaulanaAhmadSulami/Raamen/",
-        "publicLink": "",
-        "videoLink": "https://youtu.be/NoGv6MDAJbg"
+      "id": "split-bill",
+      "title": "Split Bill",
+      "status": 2,
+      "description": "Project made by me and my friend to learn deeper on Vue.js with PWA, Golang, OCR, and Message Queue, still on progress...",
+      "image": ["scan.png"],
+      "techStack": [
+        {
+          "icon": "vuejs",
+          "iconVar": "plain",
+          "name": "Vue.js"
+        },
+        {
+          "icon": "go",
+          "iconVar": "plain",
+          "name": "Go"
+        }
+      ],
+      "githubLink": "",
+      "publicLink": "",
+      "videoLink": ""
     },
     {
-        "id": "mraditya-site",
-        "title": "MRaditya Portfolio Website",
-        "status": 4,
-        "description": "This web. Created modal window for portfolio description without any library (except image slideshow on modal), also focused on responsiveness to ensure nothing broken on different screen sizes. Also put my spotify listening activity on desktop navbar, everyone should know my music taste. Some people said backend engineer tends to create website with very standard design, well i think they're right",
-        "image": [
-            "thisweb.png"
-        ],
-        "techStack": [
-            {
-                "icon": "react",
-                "iconVar": "original",
-                "name": "React"
-            },
-            {
-                "icon": "nextjs",
-                "iconVar": "plain",
-                "name": "Next.js"
-            },
-            {
-                "icon": "tailwindcss",
-                "iconVar": "original",
-                "name": "Tailwind"
-            }
-        ],
-        "githubLink": "https://github.com/DTA32/mraditya-site",
-        "publicLink": "https://mraditya.my.id/",
-        "videoLink": ""
-    },
-    {
-        "id": "internet-clafes",
-        "title": "Internet CLafes",
-        "status": 3,
-        "description": "Application for managing internet cafe, this project made for Lab Project on Object Oriented Analysis Design course. Features on this app is role-based, making every user role has it’s own feature on the app. For example, customer can book PC and make report for any malfunction on a PC and admin can manage PC and technician job",
-        "image": [
-            "1.png",
-            "2.png",
-            "3.png",
-            "4.png",
-            "5.png",
-            "6.png",
-            "7.png",
-            "8.png",
-            "9.png",
-            "10.png"
-        ],
-        "techStack": [
-            {
-                "icon": "java",
-                "iconVar": "plain",
-                "name": "Java (JavaFX)"
-            },
-            {
-                "icon": "mysql",
-                "iconVar": "original",
-                "name": "MySQL"
-            }
-        ],
-        "githubLink": "https://github.com/DTA32/ooadproject",
-        "publicLink": "",
-        "videoLink": ""
-    },
-    {
-        "id": "cash-in",
-        "title": "Cash-In",
-        "status": 3,
-        "description": "Simple cashier app made for fulfilling Object Oriented Programming final project. This app is aimed at small businesses that need efficient and simple inventory and transaction management features with a simple UI and user role-based feature access",
-        "image": [
-            "kasirmenu.png",
-            "spvmenu.png",
-            "adminmanagebarang.png",
-            "admintrx.png",
-            "adminuser.png"
-        ],
-        "techStack": [
-            {
-                "icon": "java",
-                "iconVar": "plain",
-                "name": "Java (Swing)"
-            },
-            {
-                "icon": "mysql",
-                "iconVar": "original",
-                "name": "MySQL"
-            }
-        ],
-        "githubLink": "https://github.com/DTA32/cash-in",
-        "publicLink": "",
-        "videoLink": ""
+      "id": "bandung-coffee-shop-review",
+      "title": "Bandung Coffee Shop Review",
+      "status": 2,
+      "description": "Website that created as sometimes when i want to work from cafe i get confused which cafe should i go to as Bandung have trillions of cafe, all contents there are from my personal experience. Also put map that can suggest cafe in the middle of given locations as my friend would not want to hangout if it's too far from their place. Still on progress...",
+      "image": [],
+      "techStack": [
+        {
+          "icon": "react",
+          "iconVar": "original",
+          "name": "Tanstack Start"
+        }
+      ],
+      "githubLink": "",
+      "publicLink": "",
+      "videoLink": ""
     }
-]
+  ],
+  "showcase": [
+    {
+      "id": "taliku",
+      "title": "Taliku",
+      "status": 4,
+      "description": "Scratch game that i made during my programming course when i was 10 years old, this is my very first programming experience and i still remember how excited i was when i successfully created this game although now i just realized that the name is very weird. This game is a math quiz game where player given 10 questions of addition, subtraction, and division, upon winning player can play some songs",
+      "image": ["cover.png"],
+      "techStack": [],
+      "githubLink": "https://github.com/DTA32/taliku",
+      "publicLink": "https://taliku.dta32.my.id/",
+      "videoLink": ""
+    },
+    {
+      "id": "customer-segmentation-thesis",
+      "title": "Thesis: Customer Segmentation of Brazilian E-Commerce using Machine Learning",
+      "status": 4,
+      "description": "Thesis that me and my partner made to fulfill our undergraduate degree requirement, not really much to tell as this website is just the visualization part and i don't work on this part much, you can look at the website if you want to know more about this thesis",
+      "image": ["kmeans.png"],
+      "techStack": [
+        {
+          "icon": "python",
+          "iconVar": "plain",
+          "name": "Python"
+        },
+        {
+          "icon": "vuejs",
+          "iconVar": "plain",
+          "name": "Vue.js"
+        }
+      ],
+      "githubLink": "",
+      "publicLink": "https://skrispi.mraditya.my.id",
+      "videoLink": ""
+    },
+    {
+      "id": "dta32-site",
+      "title": "DTA32 Personal Website",
+      "status": 4,
+      "description": "Sandbox project where i wrote my thoughts and experiences, exposed all of my personal data from Last.fm, Letterboxd, Goodreads, Medium, Twitter, and shared my photos and social media links. I don't really care anymore as my government already doesn't give a damn about my data privacy, so why should i? Just kidding, but seriously i just want to have fun creating this website using Next.js and Tailwind",
+      "image": ["home.png"],
+      "techStack": [
+        {
+          "icon": "react",
+          "iconVar": "original",
+          "name": "React"
+        },
+        {
+          "icon": "nextjs",
+          "iconVar": "plain",
+          "name": "Next.js"
+        },
+        {
+          "icon": "tailwindcss",
+          "iconVar": "original",
+          "name": "Tailwind"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/dta32-site",
+      "publicLink": "https://dta32.my.id/",
+      "videoLink": ""
+    },
+    {
+      "id": "mraditya-site",
+      "title": "MRaditya Portfolio Website",
+      "status": 4,
+      "description": "This web. Created modal window for portfolio description without any library (except image slideshow on modal), also focused on responsiveness to ensure nothing broken on different screen sizes. Also put my spotify listening activity on desktop navbar, everyone should know my music taste. Some people said backend engineer tends to create website with very boring design, well i think they're right",
+      "image": ["thisweb.png"],
+      "techStack": [
+        {
+          "icon": "react",
+          "iconVar": "original",
+          "name": "React"
+        },
+        {
+          "icon": "nextjs",
+          "iconVar": "plain",
+          "name": "Next.js"
+        },
+        {
+          "icon": "tailwindcss",
+          "iconVar": "original",
+          "name": "Tailwind"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/mraditya-site",
+      "publicLink": "https://mraditya.my.id/",
+      "videoLink": ""
+    },
+    {
+      "id": "link-sanitizer",
+      "title": "Social Media Link Sanitizer",
+      "status": 1,
+      "description": "Simple website that sanitize sharing link of social media that having trackers such as TikTok and Instagram, reasons why i created this because i don't want my friends know my second account that contains very normal things (trust me)",
+      "image": [],
+      "techStack": [
+        {
+          "icon": "nuxtjs",
+          "iconVar": "plain",
+          "name": "Nuxt.js"
+        }
+      ],
+      "githubLink": "",
+      "publicLink": "",
+      "videoLink": ""
+    },
+    {
+      "id": "debt-visualizer",
+      "title": "Debt Graph Visualizer",
+      "status": 1,
+      "description": "Creating this as sometimes me and my friends take turns in paying for each other or group expenses and most of the times we got lost in circle of who owes who and how much, so i created this simple website that can visualize debt relationship in graph form so we can easily figure out who owes who and how much. Integrating this with Split Bill and GOTTH Finance Tracker",
+      "image": [],
+      "techStack": [
+        {
+          "icon": "react",
+          "iconVar": "original",
+          "name": "React"
+        }
+      ],
+      "githubLink": "",
+      "publicLink": "",
+      "videoLink": ""
+    }
+  ],
+  "old": [
+    {
+      "id": "raamen",
+      "title": "RAAMEN",
+      "status": 3,
+      "description": "Ramen shop management website made for fulfilling Pattern Software Design final project, developed using Domain Driven Design. On this website, admin can create sales reports, staff can manage ramen and transaction queue, and user can order ramen",
+      "image": [
+        "login.png",
+        "admin1.png",
+        "admin2.png",
+        "staff.png",
+        "customer.png"
+      ],
+      "techStack": [
+        {
+          "icon": "csharp",
+          "iconVar": "plain",
+          "name": "C#"
+        },
+        {
+          "icon": "dot-net",
+          "iconVar": "plain",
+          "name": "ASP.NET"
+        },
+        {
+          "icon": "microsoftsqlserver",
+          "iconVar": "plain",
+          "name": "SQL Server"
+        },
+        {
+          "icon": "bootstrap",
+          "iconVar": "plain",
+          "name": "Bootstrap"
+        }
+      ],
+      "githubLink": "https://github.com/MaulanaAhmadSulami/Raamen/",
+      "publicLink": "",
+      "videoLink": "https://youtu.be/NoGv6MDAJbg"
+    },
+    {
+      "id": "internet-clafes",
+      "title": "Internet CLafes",
+      "status": 3,
+      "description": "Application for managing internet cafe, this project made for Lab Project on Object Oriented Analysis Design course. Features on this app is role-based, making every user role has it’s own feature on the app. For example, customer can book PC and make report for any malfunction on a PC and admin can manage PC and technician job",
+      "image": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png"
+      ],
+      "techStack": [
+        {
+          "icon": "java",
+          "iconVar": "plain",
+          "name": "Java (JavaFX)"
+        },
+        {
+          "icon": "mysql",
+          "iconVar": "original",
+          "name": "MySQL"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/ooadproject",
+      "publicLink": "",
+      "videoLink": ""
+    },
+    {
+      "id": "cash-in",
+      "title": "Cash-In",
+      "status": 3,
+      "description": "Simple cashier app made for fulfilling Object Oriented Programming final project. This app is aimed at small businesses that need efficient and simple inventory and transaction management features with a simple UI and user role-based feature access",
+      "image": [
+        "kasirmenu.png",
+        "spvmenu.png",
+        "adminmanagebarang.png",
+        "admintrx.png",
+        "adminuser.png"
+      ],
+      "techStack": [
+        {
+          "icon": "java",
+          "iconVar": "plain",
+          "name": "Java (Swing)"
+        },
+        {
+          "icon": "mysql",
+          "iconVar": "original",
+          "name": "MySQL"
+        }
+      ],
+      "githubLink": "https://github.com/DTA32/cash-in",
+      "publicLink": "",
+      "videoLink": ""
+    }
+  ]
+}
